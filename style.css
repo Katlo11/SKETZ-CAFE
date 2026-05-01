@@ -1,12 +1,43 @@
 CSS
 body {
+    margin: 0;
     font-family: Arial;
+    background-color: #f5e6d3;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: #4b2e1e;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
     text-align: center;
-    background-color: #F5ECDB ;
-    }
-    h1 {
-        color: brown;
-    }
-    p  {
-         font-size: 18px;
-    }
+    padding: 60px;
+    background-color: #d9b99b;
+}
+
+/* MENU */
+.menu {
+    text-align: center;
+    padding: 40px;
+}
+
+.card {
+    display: inline-block;
+    background: white;
+    padding: 20px;
+    margin: 10px;
+    width: 150px;
+    border-radius: 10px;
+}
