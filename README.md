@@ -1,2 +1,0 @@
-# SKETZ-CAFE
-WMD
